@@ -1,0 +1,9 @@
+<% provide(:title, t(".contact")) %>
+<h1><%= t ".contact" %></h1>
+<p>
+    <%= t(".text",
+    link_home: link_to(t(".rubyonrails_contact"),"https://www.railstutorial.org/contact")).html_safe %>
+</p>
+
+<%= link_to(t(".english"),locale:"en") %>
+<%= link_to(t(".vietnamese"),locale:"vi") %>

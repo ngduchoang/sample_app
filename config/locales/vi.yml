@@ -1,0 +1,37 @@
+vi:
+  static_pages:
+    home:
+      home: "Trang chủ"
+      text: "Đây là trang chủ của ứng dụng mẫu %{link_home}."
+      rubyonrails_href: "Ruby on Rails Tutorial"
+      sample : "Ứng Dụng Mẫu"
+      sampleA: "ứng dụng mẫu."
+      english: "Tiếng Anh"
+      vietnamese: "Tiếng Việt"
+
+    help:
+      help: "Trợ giúp"
+      text: "Lây sự giúp đỡ về Ruby on Rails Tutorial ở %{link_home} mục Rails Tutorial help"
+      rubyonrails_href: "Ruby on Rails Tutorial"
+      text2: "Để lấy sự giúp đỡ cho ứng dụng mẫu này, xem "
+      text3: "%{link_home2}"
+      rubyonrailsBook_href: "Ruby on Rails Tutorial book"
+      english: "Tiếng Anh"
+      vietnamese: "Tiếng Việt"
+
+    about:
+      about: "Chi tiết"
+      text: "%{link_home} là quyển %{link_home2} và %{link_home3} để dạy phát triển website với %{link_home4}. Đây là ứng dụng mẫu của bài học"
+      rubyonrails_href: "Ruby on Rails Tutorial"
+      book: "sách"
+      scree: "những chuỗi "
+      rubyonrails: "Ruby on Rails"
+      english: "Tiếng Anh"
+      vietnamese: "Tiếng Việt"
+
+    contact:
+      contact: "Liên hệ"
+      text:  "Liên hệ Ruby on Rails Tutorial về ứng dụng mẫu ở %{link_home}"
+      rubyonrails_contact: contact page
+      english: "Tiếng Anh"
+      vietnamese: "Tiếng Việt"
