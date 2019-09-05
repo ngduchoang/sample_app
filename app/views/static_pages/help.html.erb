@@ -1,0 +1,12 @@
+<% provide(:title, t(".help")) %>
+<h1><%= t ".help" %></h1>
+<p>
+   <%= t(".text",
+  link_home: link_to(t(".rubyonrails_href"), "https://www.railstutorial.org/")).html_safe %>
+   <%= t ".text2" %>
+   <%= t(".text3",
+  link_home2: link_to(t(".rubyonrailsBook_href"), "https://www.railstutorial.org/book")).html_safe %>
+</p>
+
+<%= link_to(t(".english"),locale:"en") %>
+<%= link_to(t(".vietnamese"),locale:"vi") %>
