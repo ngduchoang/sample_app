@@ -1,13 +1,13 @@
 en:
   static_pages:
     home:
-      home: "Home"
+      home: "Welcome to the Sample App"
       text: "This is the home page for the %{link_home} sample application."
       rubyonrails_href: "Ruby on Rails Tutorial"
       sample : "Sample App"
       sampleA: "sample application."
-      english: "English"
-      vietnammese: "Vietnamese"
+      signup: "Sign up now!"
+      railslogo: "Rails logo"
 
     help:
       help: "Help"
@@ -17,8 +17,6 @@ en:
       text2: "To get help on this sample app, see the"
       text3: "%{link_home2}"
       rubyonrailsBook_href: "Ruby on Rails Tutorial book"
-      english: "English"
-      vietnammese: "Vietnamese"
 
     about:
       about: "About"
@@ -29,20 +27,32 @@ en:
       book: "book"
       scree: "screecast series"
       rubyonrails: "Ruby on Rails"
-      english: "English"
-      vietnammese: "Vietnamese"
-      english: "English"
-      vietnammese: "Vietnamese"
 
     contact:
       contact: "Contact"
       text:  "Contact the Ruby on Rails Tutorial about the sample app at the %{link_home}"
       rubyonrails_contact: contact page
-      english: "English"
-      vietnammese: "Vietnamese"
 
   layouts:
+    header:
+      sample: "Sample App"
+      home: "Home"
+      help: "Help"
+      log: "Log in"
+    footer:
+      english: "English"
+      vietnammese: "Vietnamese"
+      text: "The %{link_home} by %{link_home2}"
+      rubyonrails_href: "Ruby on Rails Tutorial"
+      michael: "Michael Hartl"
+      about: "About"
+      contact: "Contact"
+      new: "New"
     application:
       rubyonrails: "| Ruby on Rails Tutorial Sample App"
+  users:
+    new:
+      signup: "Sign up"
+      text: "This will be a signup page for new users."
 
   rubyonrails: "Ruby on Rails Tutorial Sample App"
