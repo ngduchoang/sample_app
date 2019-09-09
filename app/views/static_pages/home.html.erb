@@ -1,8 +1,13 @@
-<h1><%= t ".sample" %></h1>
-<p>
-  <%= t(".text",
-  link_home: link_to(t(".rubyonrails_href"), "https://www.railstutorial.org/")).html_safe %>
-</p>
+<div class="center jumbotron">
+  <h1><%= t ".home" %></h1>
 
-<%= link_to(t(".english"),locale:"en") %>
-<%= link_to(t(".vietnamese"),locale:"vi") %>
+  <h2>
+    <%= t(".text",
+  link_home: link_to(t(".rubyonrails_href"), "https://www.railstutorial.org/")).html_safe %>
+  </h2>
+  <%= link_to(t(".signup"), signup_path, class: "btn btn-lg btn-primary") %>
+</div>
+
+<%= link_to image_tag("rails.png"),
+            "http://rubyonrails.org/" %>
+

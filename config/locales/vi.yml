@@ -1,13 +1,12 @@
 vi:
   static_pages:
     home:
-      home: "Trang chủ"
+      home: "Chào mừng bạn đến với ứng dụng mẫu"
       text: "Đây là trang chủ của ứng dụng mẫu %{link_home}."
       rubyonrails_href: "Ruby on Rails Tutorial"
       sample : "Ứng Dụng Mẫu"
       sampleA: "ứng dụng mẫu."
-      english: "Tiếng Anh"
-      vietnamese: "Tiếng Việt"
+      signup: "Đăng nhập ngay!"
 
     help:
       help: "Trợ giúp"
@@ -16,8 +15,6 @@ vi:
       text2: "Để lấy sự giúp đỡ cho ứng dụng mẫu này, xem "
       text3: "%{link_home2}"
       rubyonrailsBook_href: "Ruby on Rails Tutorial book"
-      english: "Tiếng Anh"
-      vietnamese: "Tiếng Việt"
 
     about:
       about: "Chi tiết"
@@ -26,14 +23,32 @@ vi:
       book: "sách"
       scree: "những chuỗi "
       rubyonrails: "Ruby on Rails"
-      english: "Tiếng Anh"
-      vietnamese: "Tiếng Việt"
 
     contact:
       contact: "Liên hệ"
       text:  "Liên hệ Ruby on Rails Tutorial về ứng dụng mẫu ở %{link_home}"
       rubyonrails_contact: contact page
+
+  layouts:
+    header:
+      sample: "Ứng dụng mẫu"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      log: "Đăng Nhập"
+    footer:
       english: "Tiếng Anh"
       vietnamese: "Tiếng Việt"
+      text: "Quyển %{link_home} được viết bởi %{link_home2}"
+      rubyonrails_href: "Ruby on Rails Tutorial"
+      michael: "Michael Hartl"
+      about: "Chi Tiết"
+      contact: "Liên hệ"
+      new: "Mới"
+    application:
+      rubyonrails: "| Ứng dụng mẫu về Ruby on Rails Tutorial"
+  users:
+    new:
+      signup: "Đăng Nhập"
+      text: "Đây là trang đăng nhập cho người dùng mới"
 
   rubyonrails: "Ứng dụng mẫu về Ruby on Rails Tutorial"
