@@ -52,7 +52,7 @@ en:
       rubyonrails: "| Ruby on Rails Tutorial Sample App"
   users:
     new:
-      signup: "Sign up"
-      text: "This will be a signup page for new users."
+      user: "User#new"
+      text: "Find me in app/views/users/new.html.erb"
 
   rubyonrails: "Ruby on Rails Tutorial Sample App"

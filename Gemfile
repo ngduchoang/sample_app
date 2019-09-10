@@ -27,6 +27,10 @@ gem "bootstrap-sass", "3.3.7"
 
 gem "rails-controller-testing"
 
+gem "bcrypt", "3.1.12"
+
+gem "config"
+
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
   gem "sqlite3"
