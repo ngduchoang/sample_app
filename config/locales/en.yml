@@ -52,7 +52,22 @@ en:
       rubyonrails: "| Ruby on Rails Tutorial Sample App"
   users:
     new:
-      user: "User#new"
-      text: "Find me in app/views/users/new.html.erb"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      signup: "Sign Up"
+      confirm: "Confirmation"
+      create: "Create My Accout"
+  shared:
+    error_messages:
+      text:
+        one: "The form contains 1 error"
+        other: "The form contains %{count} errors"
 
   rubyonrails: "Ruby on Rails Tutorial Sample App"
+
+  controllers:
+    users:
+      welcome: "Welcome to the Sample App!"
+      notfound: "Can't find user"
+
