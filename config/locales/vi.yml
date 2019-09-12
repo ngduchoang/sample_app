@@ -48,7 +48,7 @@ vi:
       rubyonrails: "| Ứng dụng mẫu về Ruby on Rails Tutorial"
   users:
     new:
-      signup: "Đăng Nhập"
-      text: "Đây là trang đăng nhập cho người dùng mới"
+      user: "Người dùng mới"
+      text: "Tìm tôi tại app/views/users/new.html.erb"
 
   rubyonrails: "Ứng dụng mẫu về Ruby on Rails Tutorial"
