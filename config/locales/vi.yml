@@ -72,6 +72,7 @@ vi:
       password: "Mật khẩu"
       signup: "Đăng ký ngay!"
       new_user: "Người dùng mới? %{link_to_signup}"
+      remember_me: "Ghi nhở mật khẩu"
 
   rubyonrails: "Ứng dụng mẫu về Ruby on Rails Tutorial"
 
