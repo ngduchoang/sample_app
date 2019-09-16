@@ -46,9 +46,23 @@ vi:
       new: "Mới"
     application:
       rubyonrails: "| Ứng dụng mẫu về Ruby on Rails Tutorial"
+
   users:
     new:
-      user: "Người dùng mới"
-      text: "Tìm tôi tại app/views/users/new.html.erb"
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      signup: "Đăng ký"
+      confirm: "Xác nhận mật khẩu"
+      create: "Tạo tài khoản"
+      
+  shared:
+    error_messages:
+      text: "Biểu mẫu có chứa %{count} lỗi"
 
   rubyonrails: "Ứng dụng mẫu về Ruby on Rails Tutorial"
+
+  controllers:
+    users:
+      welcome: "Chào mừng bạn đến với Sample App!"
+      notfound: "Không thể tìm thấy ngừoi dùng"
