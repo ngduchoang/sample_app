@@ -35,6 +35,9 @@ vi:
       home: "Trang chủ"
       help: "Trợ giúp"
       log: "Đăng Nhập"
+      logout: "Đăng xuất"
+      profile: "Cá nhân"
+      setting: "Cài đặt"
     footer:
       english: "Tiếng Anh"
       vietnamese: "Tiếng Việt"
@@ -59,6 +62,16 @@ vi:
   shared:
     error_messages:
       text: "Biểu mẫu có chứa %{count} lỗi"
+
+  sessions:
+    create:
+      invalid: "Email/Mật khẩu không hợp lệ"
+    new:
+      login: "Đăng nhập"
+      email: "Email"
+      password: "Mật khẩu"
+      signup: "Đăng ký ngay!"
+      new_user: "Người dùng mới? %{link_to_signup}"
 
   rubyonrails: "Ứng dụng mẫu về Ruby on Rails Tutorial"
 

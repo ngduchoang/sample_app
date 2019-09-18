@@ -39,6 +39,9 @@ en:
       home: "Home"
       help: "Help"
       log: "Log in"
+      logout: "Logout"
+      profile: "Profile"
+      setting: "Setting"
     footer:
       english: "English"
       vietnammese: "Vietnamese"
@@ -63,6 +66,15 @@ en:
       text:
         one: "The form contains 1 error"
         other: "The form contains %{count} errors"
+  sessions:
+    create:
+      invalid: "Invalid email/password combination"
+    new:
+      login: "Log in"
+      email: "Email"
+      password: "Password"
+      signup: "Sign up now!"
+      new_user: "New user? %{link_to_signup}"
 
   rubyonrails: "Ruby on Rails Tutorial Sample App"
 
