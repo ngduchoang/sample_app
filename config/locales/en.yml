@@ -75,6 +75,7 @@ en:
       password: "Password"
       signup: "Sign up now!"
       new_user: "New user? %{link_to_signup}"
+      remember_me: "Remember me on this computer"
 
   rubyonrails: "Ruby on Rails Tutorial Sample App"
 
@@ -82,4 +83,3 @@ en:
     users:
       welcome: "Welcome to the Sample App!"
       notfound: "Can't find user"
-
