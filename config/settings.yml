@@ -1,3 +1,6 @@
 minimum_password: 6
 maximum_email: 255
 maximum_name: 50
+gravatar: 80
+gravataruser: 50
+perpage: 9

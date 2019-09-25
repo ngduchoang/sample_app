@@ -38,6 +38,7 @@ vi:
       logout: "Đăng xuất"
       profile: "Cá nhân"
       setting: "Cài đặt"
+      user: "Người dùng"
     footer:
       english: "Tiếng Anh"
       vietnamese: "Tiếng Việt"
@@ -52,13 +53,35 @@ vi:
 
   users:
     new:
+      title: "Đăng ký"
+      signup: "Đăng ký"
+      content: "Đây là trang đăng ký cho người dùng mới"
       name: "Tên"
       email: "Email"
       password: "Mật khẩu"
-      signup: "Đăng ký"
-      confirm: "Xác nhận mật khẩu"
-      create: "Tạo tài khoản"
-      
+      password_confirmation: "Xác nhận mật khẩu"
+      create_my_account: "Tạo tài khoản"
+    edit:
+      title: "Sửa người dùng"
+      button_text: "Lưu thay đổi"
+      update: "Cập nhật thông tin của bạn"
+      change: "Thay đổi"
+    form:
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+    update:
+      update_success: "Thông tin đã đưuọc cập nhật"
+    index:
+      title: "Tất cả người dùng"
+      allusers: "Tất cả người dùng"
+    user:
+      yousure: "Bạn chắc chắn?"
+      deleted: "xóa"
+    destroy:
+      deleted: "Người dùng đã được xóa"
+      not_delete: "Không thể xóa ngừoi dùng"
   shared:
     error_messages:
       text: "Biểu mẫu có chứa %{count} lỗi"

@@ -42,6 +42,7 @@ en:
       logout: "Logout"
       profile: "Profile"
       setting: "Setting"
+      user: "Users"
     footer:
       english: "English"
       vietnammese: "Vietnamese"
@@ -55,12 +56,39 @@ en:
       rubyonrails: "| Ruby on Rails Tutorial Sample App"
   users:
     new:
+      title: "Sign Up"
+      signup: "Sign up"
+      content: "This will be a signup page for new users."
       name: "Name"
       email: "Email"
       password: "Password"
-      signup: "Sign Up"
-      confirm: "Confirmation"
-      create: "Create My Accout"
+      password_confirmation: "Password_confirmation"
+      create_my_account: "Create my account"
+    edit:
+      title: "Edit User"
+      button_text: "Save changes"
+      update: "Update your profile"
+      change: "Change"
+
+    form:
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Password_confirmation"
+    update:
+      update_success: "Profile updated"
+    index:
+      title: "All users"
+      allusers: "All users"  
+    user:
+      yousure: "You sure?"
+      deleted: "delete"
+      danger_flash: "you are not admin"
+    destroy:
+      deleted: "User deleted"
+      not_delete: "Don't delete user"
+    get_user:
+      user_notfound: "User is not found"
   shared:
     error_messages:
       text:
