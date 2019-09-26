@@ -69,7 +69,8 @@ en:
       button_text: "Save changes"
       update: "Update your profile"
       change: "Change"
-
+    create:
+      info: "Please check your email to activate your account."
     form:
       name: "Name"
       email: "Email"
@@ -104,10 +105,23 @@ en:
       signup: "Sign up now!"
       new_user: "New user? %{link_to_signup}"
       remember_me: "Remember me on this computer"
+  account_activations:
+    edit:
+      actived_success: "Account activated!"
+      actived_faild: "Invalid activation link"
+    load_user:
+      not_found_user: "User is not found"
+  mailers:
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      title: "Sample App"
+      hi: "Hi %{user_name}, "
+      activate: "Activate"
+      description: "Welcome to the Sample App! Click on the link below to activate your account:"
 
   rubyonrails: "Ruby on Rails Tutorial Sample App"
 
   controllers:
     users:
       welcome: "Welcome to the Sample App!"
-      notfound: "Can't find user"
