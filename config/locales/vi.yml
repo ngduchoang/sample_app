@@ -50,7 +50,18 @@ vi:
       new: "Mới"
     application:
       rubyonrails: "| Ứng dụng mẫu về Ruby on Rails Tutorial"
-
+  password_resets:
+    edit:
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+      update_password: "Cập nhật mật khẩu"
+      title: "Đặt lại mật khẩu"
+      reset_password: "Đặt lại mật khẩu"
+    new:
+      email: "Email"
+      title: "Quên mật khẩu"
+      forgotpassword: "Quên mật khẩu"
+      submit: "Xác nhận"
   users:
     new:
       title: "Đăng ký"
@@ -97,7 +108,8 @@ vi:
       password: "Mật khẩu"
       signup: "Đăng ký ngay!"
       new_user: "Người dùng mới? %{link_to_signup}"
-      remember_me: "Ghi nhở mật khẩu"
+      remember_me: "Ghi nhớ mật khẩu"
+      forgotpass: "Quên mật khẩu"
   account_activations:
     edit:
       actived_success: "Tài khoản đã được xác thực"
@@ -105,13 +117,41 @@ vi:
     load_user:
       not_found_user: "Không tìm thấy người dùng"
   mailers:
-  user_mailer:
     account_activation:
       subject: "Xác thưucj tài khoản"
+    password_reset:
+      subject: "Đặt lại mật khẩu"
+  user_mailer:
+    account_activation:
+      subject: "Xác thực tài khoản"
       title: "Ứng dụng mẫu"
       hi: "Chào %{user_name}, "
       activate: "Kích hoạt"
       description: "Chào mừng bạn đến với Sample App! Bấm vào liên kết bên dứới để xác thực tài khoản:"
+    password_reset:
+      title: "Đặt lại mật khẩu"
+      p1: "Để đặt lại mật khẩu, bấm vào liên kết bên dưới:"
+      p2: "Liên kết sẽ có hiệu lực trong vòng hai giờ ."
+      p3: "Nếu bạn không có yêu cầu đặt lại mật khẩu, Vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn không thay đổi."
+      link_to_title: "Đặt lại mật khẩu"
+  password_resets:
+    new:
+      title: "Quên mật khẩu"
+      email: "Email"
+      submit: "Xác nhận"
+    edit:
+      title: "Đặt lại mật khẩu"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+      submit: "Cập nhật mật khẩu"
+    create:
+      find: "Một email xác thưucj mật khẩu đã được gửi đến bạn"
+      not_find: "Địa chỉ email không tìm thấy"
+    update:
+      password_error: "Không thể để trống"
+      done: "Mật khẩu đã được đặt lại."
+    check_expiration:
+      expiration: "Mật khẩu đặt lại đã hết hạn."
 
   rubyonrails: "Ứng dụng mẫu về Ruby on Rails Tutorial"
 

@@ -54,6 +54,18 @@ en:
       new: "New"
     application:
       rubyonrails: "| Ruby on Rails Tutorial Sample App"
+  password_resets:
+    edit:
+      password: "Password"
+      password_confirmation: "Password_confirmation"
+      update_password: "Update password"
+      title: "Reset password"
+      reset_password: "Reset password"
+    new:
+      email: "Email"
+      title: "Forgot password"
+      forgotpassword: "Forgot password"
+      submit: "Submit"
   users:
     new:
       title: "Sign Up"
@@ -105,6 +117,7 @@ en:
       signup: "Sign up now!"
       new_user: "New user? %{link_to_signup}"
       remember_me: "Remember me on this computer"
+      forgotpass: "Forgot password"
   account_activations:
     edit:
       actived_success: "Account activated!"
@@ -112,6 +125,10 @@ en:
     load_user:
       not_found_user: "User is not found"
   mailers:
+    account_activation:
+      subject: "Account activation"
+    password_reset:
+      subject: "Password reset"
   user_mailer:
     account_activation:
       subject: "Account activation"
@@ -119,9 +136,32 @@ en:
       hi: "Hi %{user_name}, "
       activate: "Activate"
       description: "Welcome to the Sample App! Click on the link below to activate your account:"
+    password_reset:
+      title: "Password reset"
+      p1: "To reset your password click the link below:"
+      p2: "This link will expire in two hours."
+      p3: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+      link_to_title: "Reset password"
+  password_resets:
+    new:
+      title: "Forget password"
+      email: "Email"
+      submit: "Submit"
+    edit:
+      title: "Reset password"
+      password: "Password"
+      password_confirmation: "Confirmation Password"
+      submit: "Update password"
+    create:
+      find: "Email sent with password reset instructions"
+      not_find: "Email address not found"
+    update:
+      password_error: "can't be empty"
+      done: "Password has been reset."
+    check_expiration:
+      expiration: "Password reset has expired."
 
   rubyonrails: "Ruby on Rails Tutorial Sample App"
-
   controllers:
     users:
       welcome: "Welcome to the Sample App!"
